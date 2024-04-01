@@ -17,27 +17,15 @@
 
 
 
-
-
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .msg{
     position: fixed;
     right: 0;
 }
 
-
-
-
-
-
-
-
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-
-   
-}
 
 
 
@@ -60,8 +48,6 @@ header h4 {
 }
 
 /*------------//==ended styles of header section==------------*/
-
-
 
 
 
@@ -199,7 +185,6 @@ nav .nav-infos {
     color: #909090;
 }
 
-
 .nav-infos__line {
     width: 100%;
     height: 2px;
@@ -226,7 +211,7 @@ nav .nav-infos {
     text-align: left;
     color: #F3761B;
     width: auto;
-    height:42px;
+    height:58px;
     display: flex;
     align-items: center;
 }
@@ -239,10 +224,10 @@ nav .nav-infos {
     border-radius: 2px;
     display: none;
     position: absolute;
-    top: 40px;
+    top: 56px;
     left: -70px;
+    z-index: 1;
 }
-
 
 .katalog:hover ul {
     display: block;
@@ -269,7 +254,6 @@ nav .nav-infos {
     color: #F3761B;
 }
 
-
 .navBar .navbar-menu {
     width: 90%;
     height: auto;
@@ -290,8 +274,6 @@ nav .nav-infos {
     color: #000000;
 }
 
-
-
 .nav-btn__items {
     width: 24px;
     height: 16px;
@@ -310,11 +292,6 @@ nav .nav-infos {
 
 
 
-
-
-
-
-
 /*------------==started styles of nav section==------------*/
 .intro{
     width:100%;
@@ -323,14 +300,9 @@ nav .nav-infos {
     margin-top: 12px;
 }
 
-
-
-
 .intro .container{
     position: relative;
 }
-
-
 
 .intro h2{
     width: 488px;
@@ -360,14 +332,9 @@ nav .nav-infos {
     top: 260px;
 }
 
-
-
-
 .intro img{
     width: 386px;
     height: 506px;
-    /* margin-left:862px;
-    margin-top: 50px; */
     display: inline-block;
     position: absolute;
     top: 50px;
@@ -379,12 +346,12 @@ nav .nav-infos {
 
 
 
+/*------------==started styles of logos  section==------------*/
 .logos-section {
     width: 100%;
     height: auto;
     margin-top: 36px;
 }
-
 .logos-section .container .logoBar{
     width: 1340px;
     height: 90px;
@@ -395,3 +362,4 @@ nav .nav-infos {
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.57) 0 0 4px;
 }
+/*------------//==ended styles of logos section==------------*/
